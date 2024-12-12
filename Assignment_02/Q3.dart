@@ -13,7 +13,16 @@ void main() {
   ];
 
   // Remove days from the end one by one
-
-  print('Removing: ${days.removeLast()}');
+  print('Removing last one: ${days.removeLast()}');
+  print(days);
+  print('Removing last one: ${days.removeLast()}');
+  print(days);
+  print('Removing last one: ${days.removeLast()}');
+  print(days);
+  print('Removing last one: ${days.removeLast()}');
+  print(days);
+  print('Removing last one: ${days.removeLast()}');
+  print(days);
+  print('Removing last one: ${days.removeLast()}');
   print(days);
 }
