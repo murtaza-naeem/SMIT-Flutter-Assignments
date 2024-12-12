@@ -6,3 +6,14 @@ Map<String, double> expenses = {
 };
 Check if "fri" exist in expanses; if exist change it's value to 5000.0 otherwise 
 add 'fri' to expenses and set its value to 5000.0 then print expenses. */
+void main() {
+  Map<String, double> expenses = {
+    'sun': 3000.0,
+    'mon': 3000.0,
+    'tue': 3234.0,
+  };
+  print("Before $expenses");
+  var val = expenses.putIfAbsent("fri", () => 5000.0);
+  print("Added value: $val");
+  print("After: $expenses");
+}
