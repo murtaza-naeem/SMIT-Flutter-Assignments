@@ -17,6 +17,5 @@ void main(){
     {'name': 'Tom', 'eligible': false},
   ];
   usersEligibility.removeWhere((e) => e['eligible'] == "false");
-  print(usersEligibility);
-  
+  print(usersEligibility); 
 }
