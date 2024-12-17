@@ -8,5 +8,5 @@ void main() {
 
   // Get the smallest and greatest number 
   print("Smallest number from list: ${numbers.first}");
-  print("Gretest number from list: ${numbers.last}");
+  print("Gretest number from list: ${numbers.last}"); 
 }

@@ -5,8 +5,8 @@ found"*/
 
 void main() {
   Map shoppingCart = {'Apple': 5, 'Orange': 4, 'Banana': 2};
-  List keys = shoppingCart.keys.toList();
-  if (keys == 'Apple') {
+
+  if (shoppingCart.containsKey("Apple")) {
     print("Product found");
   } else {
     print("Product not found");

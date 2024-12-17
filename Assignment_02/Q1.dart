@@ -2,4 +2,4 @@
 void main() {
   List<dynamic> Names = ["Murtaza", "Ali", "Arham"];
   Names.forEach((Names) => print(Names));
-}
+} 

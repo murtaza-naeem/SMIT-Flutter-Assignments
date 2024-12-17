@@ -24,5 +24,5 @@ void main() {
   print('Removing last one: ${days.removeLast()}');
   print(days);
   print('Removing last one: ${days.removeLast()}');
-  print(days);
+  print(days); 
 }
