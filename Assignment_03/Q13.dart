@@ -7,7 +7,14 @@ The pattern like :
 4444
 */
 
-void main(){
-  
-}
+import 'dart:io';
 
+void main() {
+  int count = 4;
+  for (var i = 1; i <= count; i++) {
+    for (var j = 1; j <= i; j++) {
+      stdout.write(i);
+    }
+    print("");
+  }
+}
